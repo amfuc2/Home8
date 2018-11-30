@@ -101,3 +101,83 @@ header {
   position: relative;
   top: 30px;
 }
+
+.title-about-us {
+  color: #111111;
+  font-family: "Playfair Display";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+}
+
+.text-about-us {
+  color: #666666;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+  width: 762px;
+}
+
+.border-left {
+  border-left: 5px solid #e8bf5d;
+  padding-left: 10px;
+}
+
+.margin-second-section {
+  margin-top: 100px;
+}
+
+.left-block {
+  float: left;
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.right-block {
+  float: left;
+  width: calc(50% - 10px);
+  margin-left: 10px;
+}
+
+.title-of-two-columns {
+  color: #111111;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.84px;
+}
+
+.years-of-events {
+  color: #111111;
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.84px;
+}
+
+.text-of-events {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.64px;
+}
+
+.text-about-expertise-in-two-columns {
+  color: #666666;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.two-columns {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
