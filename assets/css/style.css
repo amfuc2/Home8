@@ -54,7 +54,7 @@ header {
 }
 
 .first-background {
-  background: url("../img/first background.png") black 50% 50% no-repeat ;
+  background: url("../img/first background.png") #111111 50% 50% no-repeat ;
   height: 840px;
 }
 
@@ -179,5 +179,119 @@ header {
 
 .two-columns {
   margin-top: 70px;
-  margin-bottom: 100px;
+}
+
+.second-background {
+  background: url("../img/second-background.png") #111111 50% 50% no-repeat ;
+  margin-top: 100px;
+  height: 750px;
+}
+
+.title-Practis-Area {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+}
+
+.text-Practis-Area {
+  width: 762px;
+  color: #b9b9b9;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+
+  letter-spacing: 0.84px;
+}
+
+.margin-second-background-under-block {
+  position: relative;
+  top: 100px;
+}
+
+.margin-second-background-downer-block {
+  position: relative;
+  top: 100px;
+}
+
+.first-block-in-practis {
+  float: right;
+  width: calc(50% - 100px);
+}
+
+.second-block-in-practis{
+  float: right;
+  width: calc(50% - 100px);
+}
+
+.third-block-in-practis {
+  float: right;
+  width: calc(50% - 100px);
+}
+
+.fourth-block-in-practis {
+  float: right;
+  width: calc(50% - 100px);
+}
+
+.title-of-block-in-practis {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.84px;
+}
+
+.text-of-block-in-practis {
+  width: 357px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  line-height: 25px;
+}
+
+.second-block-in-practis:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 510px;
+  background: url("../img/2.png") 50% 50% no-repeat;
+}
+
+.first-block-in-practis:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 130px;
+  background: url("../img/1.png") 50% 50% no-repeat;
+}
+
+.third-block-in-practis:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 130px;
+  background: url("../img/3.png") 50% 50% no-repeat;
+}
+
+.fourth-block-in-practis:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 510px;
+  background: url("../img/4.png") 50% 50% no-repeat;
+}
+
+.margin-second-background-downer-block {
+  margin-top: 100px;
 }
