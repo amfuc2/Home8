@@ -212,6 +212,10 @@ header {
   top: 100px;
 }
 
+.more-height {
+  height: 750px;
+}
+
 .margin-second-background-downer-block {
   position: relative;
   top: 100px;
@@ -321,6 +325,7 @@ header {
 
 .margin-between-name-of-general-and-block-meet-our {
   margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .block-with-name-of-general {
@@ -345,4 +350,81 @@ header {
   font-size: 14px;
   font-weight: 400;
   color: #666666;
+}
+
+.third-background {
+  background: url("../img/third-background.png") #111111 50% 50% no-repeat ;
+  height: 750px;
+
+}
+
+.title-our-clients-say {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+}
+
+.text-our-clients-say {
+  width: 762px;
+  color: #b9b9b9;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
+.margin-between-start-block-of-our-clients-say-in-third-background {
+  padding-top: 100px;
+}
+
+.client-background {
+  margin-top: 70px;
+  float: left;
+  margin-right: 100px;
+}
+
+.name-of-client {
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  line-height: 31px;
+  color: #ffffff;
+  display: block;
+}
+
+.where-working {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  line-height: 24px;
+}
+
+.margin-in-third-background-right-of-client {
+  margin-top: 100px;
+}
+
+article:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 400px;
+  background: url("../img/laws.png") 50% 50% no-repeat;
+}
+
+article {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+  margin-bottom: 50px;
 }
