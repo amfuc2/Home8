@@ -529,3 +529,81 @@ article {
   line-height: 31px;
   letter-spacing: 0.64px;
 }
+
+.fourth-background {
+  background: url("../img/fourth-background.png") #111111 50% 50% no-repeat;
+  height: 750px;
+}
+
+.title-Frequently-asked-questions {
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 44.84px;
+  letter-spacing: 1.24px;
+}
+
+.text-Frequently-asked-questions {
+  width: 762px;
+  color: #b9b9b9;
+  font-family: "Playfair Display";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.89px;
+  letter-spacing: 0.84px;
+}
+
+.margin-between-start-block-and--Frequently-asked-questions {
+  margin-top: 70px;
+  padding-top: 70px;
+}
+
+.Frequently-asked-questions {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+}
+
+.active-question {
+  color: #e8bf5d;
+}
+
+.fixed-width-560 {
+  width: 560px;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
+.margin-after-Frequently-asked-questions-with-border-left {
+  margin-top: 100px;
+}
+
+.orange-text-block {
+  width: 500px;
+  height: 281px;
+  box-shadow: 0 12px 40px rgba(216, 178, 87, 0.32);
+  border-radius: 3px;
+  background-color: #e8bf5d;
+}
+
+.style-for-text-in-orange-block {
+  width: 406px;
+  height: 200px;
+  color: #111111;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+  padding: 40px;
+}
+
+.margin-right-Frequently-asked-questions {
+  margin-top: 150px;
+}
