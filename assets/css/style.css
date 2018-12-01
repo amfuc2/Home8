@@ -394,7 +394,8 @@ header {
   letter-spacing: 0.84px;
   line-height: 31px;
   color: #ffffff;
-  display: block;
+  display: inline-block;
+  width: 120px;
 }
 
 .where-working {
@@ -404,6 +405,8 @@ header {
   font-weight: 400;
   letter-spacing: 0.56px;
   line-height: 24px;
+  display: inline-block;
+  width: 130px;
 }
 
 .margin-in-third-background-right-of-client {
@@ -427,6 +430,11 @@ article {
   line-height: 31px;
   letter-spacing: 0.56px;
   margin-bottom: 50px;
+  display: inline-block;
+}
+
+.normalize-width{
+  width: 700px;
 }
 
 .text-Recent-Publications {
